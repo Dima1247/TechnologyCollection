@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+/* Person is used to identify users
+ * across our system */
+
+message Person {
+    // 1. scalar types declaration
+
+    // the age as of the person's bearth
+    int32 age = 1;
+    string first_name = 2;
+    string last_name = 3;
+    // small pucture represents a small .jpg file
+    bytes small_picture = 4;
+    bool is_profile_verified = 5;
+    // height of the person in cms
+    double height = 6;
+
+    // 2. list declaration
+
+    // list of person's phone numbers
+    repeated string phone_numbers = 7;
+
+    // 3. enums
+
+    // we currently consider only 3 eye colours
+    enum EyeColor {
+        UNKNOWN_EYE_COLOUR = 0;
+        EYE_GREEN = 1;
+        EYE_BROWN = 2;
+        EYE_BLUE = 3;
+    }
+
+    EyeColor eye_colour = 8;
+}

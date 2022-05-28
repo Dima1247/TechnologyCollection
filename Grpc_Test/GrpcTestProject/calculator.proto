@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+package calculator;
+
+message SumRequest {
+  int32 first_number = 1;
+  int32 second_number = 2;
+}
+
+message SumResponse {
+  int32 sum = 1;
+}
+
+message DecompositionRequest {
+  int32 prime_number = 1;
+}
+
+message DecompositionResponse {
+  int32 divider = 1;
+}
+
+message AverageRequest {
+  int32 number = 1;
+}
+
+message AverageResponse {
+  float average_number = 1;
+}
+
+message MaximumRequest {
+  int32 number = 1;
+}
+
+message MaximumResponse {
+  int32 max_number = 1;
+}
+
+service CalculatorService {
+  rpc CalculateSum(SumRequest) returns(SumResponse) {}
+
+  rpc CalculateDecomposition(DecompositionRequest) returns(stream DecompositionResponse) {}
+
+  rpc CalculateAverage(stream AverageRequest) returns(AverageResponse) {}
+
+  rpc CalculateMaximumm(stream MaximumRequest) returns(stream MaximumResponse) {}
+}

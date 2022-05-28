@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://localhost:9000/",
+  "Organization": null,
+  "ProjectKey": "GrpcTest",
+  "ProjectName": "GrpcTest",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AX6y-h1j6ZsaDgB-f2VF",
+      "ProfileTimestamp": "2022-02-01T01:50:43Z"
+    }
+  }
+}

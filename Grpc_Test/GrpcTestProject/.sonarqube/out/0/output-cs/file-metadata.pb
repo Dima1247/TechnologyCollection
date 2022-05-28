@@ -1,0 +1,14 @@
+[
+RC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Handlers\ServerHandler.csutf-8L
+CC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Program.csutf-8b
+YC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Services\CalculatorServiceImp.csutf-8`
+WC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Services\GreetingServiceImp.csutf-8\
+SC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Services\SqrtServiceImp.csutf-8ƒ
+xC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8b
+WC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\Calculator.csutf-8f
+[C:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\CalculatorGrpc.csutf-8`
+UC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\Greeting.csutf-8d
+YC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\GreetingGrpc.csutf-8\
+QC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\Sqrt.csutf-8`
+UC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\SqrtGrpc.csutf-8o
+dC:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\obj\Debug\net5.0\GrpcServer.AssemblyInfo.csutf-8

@@ -1,0 +1,413 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.21569.2 (52021b4b)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'EnterClientStrategyType' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Abstractions/Launcher.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 32,
+                  "endLine": 28,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintClientStrategyTypes' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Abstractions/Launcher.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 18,
+                  "endLine": 22,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'WriteRequestAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/BDCalculatorClientStrategy.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 24,
+                  "endLine": 21,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponseAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/BDCalculatorClientStrategy.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 24,
+                  "endLine": 34,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'GenerateGreetings' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/BDGreetingClientStrategy.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 33,
+                  "endLine": 38,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponseAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/BDGreetingClientStrategy.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 24,
+                  "endLine": 32,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'WriteRequestAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/CSGreetingClientStrategy.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 24,
+                  "endLine": 21,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponse' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/CSGreetingClientStrategy.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 18,
+                  "endLine": 36,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponseAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/SSGreetingClientStrategy.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 24,
+                  "endLine": 24,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponseAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/SSCalculatorClientStrategy.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 24,
+                  "endLine": 21,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponse' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/URCalculatorClientStrategy.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 18,
+                  "endLine": 21,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponse' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/URGreetingClientStrategy.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 18,
+                  "endLine": 23,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintRpcError' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/SSSqrtClientStrategy.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 18,
+                  "endLine": 35,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponseAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/SSSqrtClientStrategy.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 24,
+                  "endLine": 28,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponse' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/URSqrtClientStrategy.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 18,
+                  "endLine": 27,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintRpcError' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/URSqrtClientStrategy.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 18,
+                  "endLine": 31,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintResponse' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/CSCalculatorClientStrategy.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 18,
+                  "endLine": 34,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'WriteRequestAsync' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/MyData/Courses/GrpcHandsOn/GrpcTestProject/GrpcClient/Strategies/CSCalculatorClientStrategy.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 24,
+                  "endLine": 21,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

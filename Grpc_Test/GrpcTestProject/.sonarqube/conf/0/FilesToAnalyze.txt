@@ -1,0 +1,5 @@
+﻿C:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Handlers\ServerHandler.cs
+C:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Program.cs
+C:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Services\CalculatorServiceImp.cs
+C:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Services\GreetingServiceImp.cs
+C:\MyData\Courses\GrpcHandsOn\GrpcTestProject\GrpcServer\Services\SqrtServiceImp.cs

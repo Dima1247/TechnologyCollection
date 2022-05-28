@@ -1,0 +1,1 @@
+C:\MyData\Courses\GrpcHandsOn\GrpcTestProject\.sonarqube\out\1
