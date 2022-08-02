@@ -6,7 +6,7 @@ namespace GraphQlHandsOn.Services;
 public class ProductService : IProductService {
   private static readonly List<Product> _products = new() {
     new Product { Id = 1, Name = "Coffee", Price = 10 },
-    new Product { Id = 2, Name = "Tea", Price = 10 }
+    new Product { Id = 2, Name = "Tea", Price = 15}
   };
 
   public List<Product> GetAllProducts() {

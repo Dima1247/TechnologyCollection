@@ -1,0 +1,75 @@
+query MyFirstQuery {
+  viewer {
+    id
+    name
+    login
+    avatarUrl
+    createdAt
+  }
+}
+
+query ArgumentQuery {
+  repository(name: "graphql", owner: "facebook") {
+    createdAt
+    id
+    description
+  }
+}
+
+query AliasesQuery {
+  CoreRepository: repository(name: "core", owner: "dotnet") {
+    id
+    description
+    createdAt
+  }
+  WPFRepository: repository(name: "wpf", owner: "dotnet") {
+    id
+    description
+    createdAt
+  }
+}
+
+fragment RepositoryCommonField on Repository {
+  id
+  description
+  createdAt
+}
+
+query FragmentQuery {
+  repository(name: "graphql", owner: "facebook") {
+    ...RepositoryCommonField
+  }
+}
+
+#{
+#  "name": "core",
+#  "owner": "dotnet"
+#}
+
+query VarQuery($name: String!, $owner: String!) {
+  repository(name: $name, owner: $owner) {
+    id
+    description
+    createdAt
+  }
+}
+
+#{
+#  "input": {
+#    "ownerId": "MDQ6VXNlcjI4Mzk5NzUy",
+#    "name": "My First GraphQL app",
+#    "body": "Test app",
+#    "clientMutationId": "1234567890" 
+#  }
+#}
+
+mutation AddProject($input: CreateProjectInput!) {
+  createProject(input: $input) {
+    clientMutationId
+    project {
+      id
+      url
+      createdAt
+    }
+  }
+}
